@@ -1,13 +1,12 @@
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import Quizz from "./components/Quizzz.jsx";
-//import LandingPage from "./components/LandingPage.jsx";
+import GameCreator from "./components/GameCreator.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      <Quizz />
+      <GameCreator />
       <Footer />
     </>
   );
