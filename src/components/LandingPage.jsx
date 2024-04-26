@@ -1,8 +1,8 @@
-import "./LandingPage.css";
+import styles from "./LandingPage.module.css";
 
 function LandingPage() {
   return (
-    <div className="page">
+    <div className={styles.page}>
       <img src="/src/assets/illfelogo.png" alt="" />
     </div>
   );
