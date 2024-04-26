@@ -1,4 +1,4 @@
-.header-container {
+.headerContainer {
   max-width: 100%;
   height: auto;
   background-color: hsl(208, 60%, 47%);
@@ -9,11 +9,11 @@
   margin: 10px;
 }
 
-.header-container .container-item-span {
+.headerContainer .containerItemSpan {
   flex-grow: 1;
 }
 
-.header-container .container-item {
+.headerContainer .containerItem {
   margin: 0px 10px 0px 10px;
   text-decoration-line: none;
   color: hsl(0, 0%, 100%);
@@ -23,6 +23,6 @@
   font-style: normal;
 }
 
-.header-container img {
+.headerContainer img {
   height: 80px;
 }

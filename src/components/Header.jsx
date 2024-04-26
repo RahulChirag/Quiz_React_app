@@ -1,16 +1,16 @@
 import Logo from "../assets/illfelogo.png";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className="header-container">
-      <img className="container-item" src={Logo} alt="Logo" />
-      <div className="container-item-span"> </div>
-      <button className="container-item" href="#">
+    <header className={styles.headerContainer}>
+      <img className={styles.containerItem} src={Logo} alt="Logo" />
+      <div className={styles.containerItemSpan}> </div>
+      <button className={styles.containerItem} href="#">
         Login
       </button>
-      <p className="container-item">|</p>
-      <button className="container-item" href="#">
+      <p className={styles.containerItem}>|</p>
+      <button className={styles.containerItem} href="#">
         SignUp
       </button>
     </header>
