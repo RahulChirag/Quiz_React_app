@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "lifethemes",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "xlsx": "^0.18.5"
+    "react-dropdown": "^1.11.0",
+    "react-hook-form": "^7.51.3",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

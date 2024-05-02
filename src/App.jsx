@@ -1,12 +1,22 @@
-// App.jsx
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
-import NavigationButton from "./components/NavigationButton.jsx";
+import React, { useState } from "react";
+import Footer from "./components/Footer";
+import Headermain from "./components/Headermain";
+import MainForm from "./components/MainForm";
 
 function App() {
+  const [submitted, setSubmitted] = useState(false);
+
+  // Handle form submission
+  const handleSubmit = () => {
+    setSubmitted(true);
+  };
+
   return (
     <>
-      <Header />
+      <Headermain onMainpage={!submitted} />
+
+      <MainForm onSubmit={handleSubmit} />
+
       <Footer />
     </>
   );

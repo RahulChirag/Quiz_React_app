@@ -1,13 +1,10 @@
-import styles from "./Footer.module.css";
+import Styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer>
-      <div className={styles.footer}>
-        &copy; {new Date().getFullYear()} i-Life
-      </div>
+    <footer className={Styles.footer}>
+      &copy; {new Date().getFullYear()} i-Life
     </footer>
   );
 }
-
 export default Footer;

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row; /* Change flex direction to column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 2px 8px hsl(0, 0%, 35%);
+  width: 100%;
+}
+
+.logo {
+  height: 90px;
+  padding: 15px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 200%;
+  margin-left: auto; /* Pushes heading to the right, centering it */
+  margin-right: auto; /* Pushes heading to the left, centering it */
+  color: hsl(180, 68%, 37%);
+}
+
+.link {
+  height: auto;
+  width: auto;
+}
+
+.linkimage {
+  padding: 10px;
+  height: 100px;
+  width: auto;
+}
